@@ -1,8 +1,8 @@
 Operation System=Linux
 CPU name=x86_64
-CPU load=18.0
+CPU load=2.2
 CPU cores=12
-Free memory(MiB)=7184
+Free memory(MiB)=10785
 Processes count=7
-Данный пользователь: l30
-Free space on /(GiB)=304.6491355895996
+Current user=l30
+Free space on /(GiB)=304.9586181640625

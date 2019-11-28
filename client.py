@@ -44,12 +44,12 @@ def fill():
     f = open("data.txt", "w")
     f.write("Operation System="+platform.system()+"\n")
     f.write("CPU name={}\n".format(platform.processor()))
-    f.write("CPU load={}\n".format(psutil.cpu_percent()))
+    f.write("CPU load={}\n".format(psutil.cpu_percent()*10))
     f.write("CPU cores={}\n".format(psutil.cpu_count()))
     d = dict(psutil.virtual_memory()._asdict())
     f.write("Free memory(MiB)={}\n".format(int(d.get('free')/2**20)))
     f.write("Processes count={}\n".format(len(psutil.pids())))
-    f.write("Current username: {}\n".format(pwd.getpwuid(os.geteuid())[0]))
+    f.write("Current user={}\n".format(pwd.getpwuid(os.geteuid())[0]))
     path = None
     if platform.system() == 'Windows':
         path = "C:\\"
