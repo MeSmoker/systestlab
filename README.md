@@ -1,6 +1,6 @@
 # SystestLAB
 #### Some python code to collect info 'bout ur PC
-#### Also has server part  :smiley:
+#### Also has server part  :smiley: and it can self-assemble .html report.:tw-1f1fc: :tw-1f1f4: :tw-1f1fc: 
 
 ------------
 
